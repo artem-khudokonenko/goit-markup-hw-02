@@ -1,0 +1,162 @@
+:root {
+  --background-color: #e5e5e5;
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: #2e2f42;
+  --hero-background: #2e2f42;
+}
+
+body {
+  color: var(--text);
+  background-color: var(--background-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+}
+
+h2,
+h3 {
+  color: var(--dark);
+}
+.titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.link-line {
+  text-decoration: none;
+}
+
+/* header */
+
+.logo {
+  color: var(--dark);
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--primary-brand);
+}
+
+.logo-web {
+  color: var(--primary-brand);
+}
+
+.nav {
+  list-style: none;
+}
+
+.nav-site {
+  color: var(--dark);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.nav-site:hover,
+.nav-site:focus {
+  color: var(--pressed-state);
+}
+
+.link-tel {
+  color: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.link-tel:hover,
+.link-tel:focus {
+  color: var(--pressed-state);
+}
+
+.link-mail {
+  color: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.link-mail:hover,
+.link-mail:focus {
+  color: var(--pressed-state);
+}
+
+.link-contacts {
+  list-style: none;
+}
+
+/* Hero */
+
+.hero-title {
+  color: #ffffff;
+  background-color: var(--hero-background);
+
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+.hero-button {
+  color: #ffffff;
+  background-color: var(--primary-brand);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--pressed-state);
+}
+
+.subtitel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.subtitel-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* team */
+
+.list-style {
+  list-style: none;
+}
+
+/* footer */
+
+.footer-text {
+  line-height: 1.5;
+  color: var(--accent);
+  background-color: var(--modal-overlay);
+}
+
+/* portfolio */
+
+.btn-portfolio {
+  background: var(--light);
+  border: 1px solid var(--light);
+  border-radius: 4px;
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  background: var(--pressed-state);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
